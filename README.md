@@ -2,11 +2,11 @@
 
 ## My First Android App
 
-## It is Still in Devlopment, more feature to add
-## Currently in beta version.
+#### It is Still in Devlopment, more feature to add
+(Currently in beta version.)
 
 ### You can have a Glimpse of the app from below ScreenShot
 
-<img src="assets/1.png"><br>
-<img src="assets/2.png"><br>
-<img src="assets/3.png"><br>
+<img src="assets/1.png" width="400px"><br>
+<img src="assets/2.png" width="400px"><br>
+<img src="assets/3.png" width="400px"><br>
