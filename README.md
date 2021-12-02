@@ -7,6 +7,6 @@
 
 ### You can have a Glimpse of the app from the below ScreenShots: <br>
 
-<img src="assets/1.png" width="420px">     <img src="assets/2.png" width="420px">
-<p align="center"> <img src="assets/3.png" width="420px"> </p>
+<img src="assets/1.png" width="410px">     <img src="assets/2.png" width="410px">
+<p align="center"> <img src="assets/3.png" width="410px"> </p>
 
