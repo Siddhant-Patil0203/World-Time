@@ -1,6 +1,6 @@
 <h1> World Time App <img src = "assets/1024.png" width="70px"> </h1>
 
-<h2> My First Android App </h2>
+<h2> My First Flutter Android App </h2>
 
 #### It is Still in Devlopment, more feature to add
 (Currently in beta version.)
