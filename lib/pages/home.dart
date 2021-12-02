@@ -18,6 +18,7 @@ class _HomeState extends State<Home> {
     //print(data);
     String bgImage = (data['isDaytime'] ? 'day.jpg' : 'night.jpg');
     Color bgColor = (data['isDaytime'] ? Colors.lightBlueAccent : Colors.indigo.shade900);
+    Color _text = data['isDaytime'] ? Colors.black87 : Colors.white;
 
     return Scaffold(
       backgroundColor: bgColor,
@@ -33,7 +34,7 @@ class _HomeState extends State<Home> {
           padding: const EdgeInsets.fromLTRB(0, 120, 0, 0),
           child: Column(
             children: <Widget>[
-              TextButton.icon(
+              OutlinedButton.icon(
                   onPressed: () async {
                     dynamic result = await Navigator.pushNamed(context, '/location');
                     if(result != null){
@@ -47,27 +48,27 @@ class _HomeState extends State<Home> {
                       });
                     }
                   },
-                  icon: const Icon(
+                  icon: Icon(
                       Icons.edit_location,
-                      color: Colors.black54,
+                      color: _text ,
                   ),
-                  label: const Text(
+                  label: Text(
                       'Edit Location',
                        style : TextStyle(
-                         color: Colors.black54,
+                         color: _text,
                        )
                   ),
-              ),
+                ),
               const SizedBox(height: 20.0),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
                   Text(
                     data['location'],
-                    style: const TextStyle(
+                    style: TextStyle(
                       fontSize: 28.0,
                       letterSpacing: 2.0,
-                      color:  Colors.black87,
+                      color: _text,
                     ),
                   ),
                 ],
@@ -77,7 +78,7 @@ class _HomeState extends State<Home> {
                 data['time'],
                 style: const TextStyle(
                   fontSize: 66,
-                  color: Colors.black87,
+                  color: Colors.black54,
                 ),
               ),
             ],
